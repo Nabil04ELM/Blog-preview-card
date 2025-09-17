@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("assets/fonts/Figtree-VariableFont_wght.ttf")
+    format("truetype-variations");
+  font-weight: 500 800;
+}
+
+* {
+  margin: 0%;
+  /* box-sizing: content-box; */
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 25%;
+  margin: 10px auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 8px 8px black;
+}
+
+.illus {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.Learning {
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 800;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px 12px;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title:hover,
+.title:focus {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.description {
+  color: hsl(0, 0%, 42%);
+  margin-bottom: 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 800;
+}
+
+.avatar {
+  width: 32px;
+  height: auto;
+}
