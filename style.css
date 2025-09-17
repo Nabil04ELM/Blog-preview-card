@@ -19,7 +19,7 @@ body {
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  width: 25%;
+  max-width: 75%;
   margin: 10px auto;
   border: 1px solid black;
   border-radius: 20px;
@@ -69,4 +69,10 @@ body {
 .avatar {
   width: 32px;
   height: auto;
+}
+
+@media (min-width: 500px) {
+  .card {
+    max-width: 25%;
+  }
 }
