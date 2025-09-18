@@ -11,16 +11,24 @@
 }
 
 body {
+  /* height: 100%; */
   background-color: hsl(47, 88%, 63%);
   font-family: "Figtree", sans-serif;
   font-size: 16px;
   font-weight: 500;
 }
 
+.align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .card {
   background-color: hsl(0, 0%, 100%);
-  max-width: 75%;
-  margin: 10px auto;
+  /* max-width: 75%; */
+  margin: 10px;
   border: 1px solid black;
   border-radius: 20px;
   padding: 20px;
